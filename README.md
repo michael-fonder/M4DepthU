@@ -12,6 +12,7 @@ This is the reference TensorFlow implementation for training and testing M4Depth
 
 M4Depth+U is deep neural network designed to jointly estimate depth and uncertainty on depth from RGB image sequences acquired in unknown environments by a camera moving with 6 degrees of freedom (DoF), and is:
 
+*  **Representative of the error**: The uncertainty estimateproduced by M4Depth+U is well correlated with the groundth-truth error;
 *  **Robust**: M4Depth+U performs well in zero-shot cross-dataset transfer;
 *  **State-of-the-art**: We show that our method performs on par with existing MVD methods for joint depth and uncertainty estimation despite being 2.5 times faster and
 causal, as opposed to other methods.
